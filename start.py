@@ -9,7 +9,7 @@ os.environ["ENV"] = env
 commands = [
     f"cd ./api_gateway && npm run {env}",
     f"cd ./microservices/progress && npm run {env}",
-    "cd ./microservices/users && cd .venv/Scripts && activate && cd ../../src && python manage.py runserver"
+    #"cd ./microservices/users && cd .venv/Scripts && activate && cd ../../src && python manage.py runserver"
 ]
 
 # Loop through directories and execute commands
